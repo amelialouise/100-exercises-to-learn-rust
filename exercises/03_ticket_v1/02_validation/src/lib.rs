@@ -1,10 +1,8 @@
 struct Ticket {
     title: String,
     description: String,
-    status: String,
+    status: String
 }
-
-impl Ticket {
     // TODO: implement the `new` function.
     //  The following requirements should be met:
     //   - Only `To-Do`, `In Progress`, and `Done` statuses are allowed.
@@ -17,16 +15,46 @@ impl Ticket {
     // You'll have to use what you learned in the previous exercises,
     // as well as some `String` methods. Use the documentation of Rust's standard library
     // to find the most appropriate options -> https://doc.rust-lang.org/std/string/struct.String.html
-    fn new(title: String, description: String, status: String) -> Ticket {
-        let x = '&str To-Do'
-        todo!();
-        Self {
-            title,
-            description,
-            status,
-        }
+
+
+impl Ticket {
+    fn valid_status(&self) -> bool {
+        self.status == "Done" || 
+            self.status == "To-Do" ||
+                self.status == "In progress"
     }
+    
+    fn valid_title(&self) -> bool {
+        self.title.len() < 50 && self.title.len() > 0
+    }
+    
+    fn valid_description(&self) -> bool {
+        self.description.len() < 50 && self.description.len() > 0
+    }
+
+
+   // fn new(title: String, description: String, status: String) -> Ticket {
+
+    //}
 }
+
+/* 
+rust playground: 
+https://gist.github.com/rust-play/ad1f3d2ccafc532ac4a313e5e69742b1
+fn main() {
+    let ticket1 = Ticket {
+        title: String::from(""),
+        status: String::from("Done-zo"),
+        description: String::from("FUCK THIS OMGGGGhhhhhhhhhhh")
+    };
+    
+    println!("New ticket has \n title: {}\n status: {}\n description: {}", ticket1.title, ticket1.status, ticket1.description);
+
+    println!("But is the status valid? {}", ticket1.valid_status());
+    println!("Is the title valid? {}", ticket1.valid_title());
+    println!("Is the description valid? {}", ticket1.valid_description())
+}
+*/
 
 #[cfg(test)]
 mod tests {
