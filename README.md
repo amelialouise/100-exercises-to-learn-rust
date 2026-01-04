@@ -15,7 +15,7 @@ This repo is my fork of the original [`100 Exercises to Learn Rust`](https://git
 
 P.S. You'll also meet Ferris there:
 
-![Ferris when code does not compile](img/does_not_compile.svg){width="80" height="80"}
+[![Ferris when code does not compile](img/does_not_compile.svg){fig-align="left" width="112"}](https://doc.rust-lang.org/book/ch00-00-introduction.html#ferris)
 
 -   **Rust Playground**\
     Useful for testing out functions while working through the exercises. For example, here's an embedded code link with a [solution to exercise 07](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&code=pub+fn+factorial%28n%3A+u32%29+-%3E+u32+%7B%0A++++let+mut+val%3A+u32+%3D+1%3B%0A%0A++++for+i+in+1..%3Dn++%7B%0A++++++++val+*%3D+i%3B%0A++++%7D%0A++++val%0A%7D%0A%0A%0Afn+main%28%29+%7B%0A++++let+n+%3D+5%3B%0A++++println%21%28%22factorial+of+%7B%7D+is+%7B%7D%22%2C+n%2C+factorial%28n%29%29%3B%0A%7D) that you can run. NEAT.
