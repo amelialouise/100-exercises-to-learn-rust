@@ -8,7 +8,7 @@ fn magic_number(n: u32) -> u32 {
         13
     } else {
         17
-    };
+    }
 }
 
 #[cfg(test)]

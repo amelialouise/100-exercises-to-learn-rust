@@ -7,7 +7,7 @@ pub fn factorial(n: u32) -> u32 {
         val *= i;
         i += 1;
     }
-    val;
+    val
 }
 
 #[cfg(test)]

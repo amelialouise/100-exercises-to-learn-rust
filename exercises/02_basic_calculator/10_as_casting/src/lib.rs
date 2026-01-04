@@ -35,4 +35,3 @@ mod tests {
         assert_eq!(true as u8, v);
     }
 }
-∫

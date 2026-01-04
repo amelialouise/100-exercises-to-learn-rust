@@ -17,7 +17,8 @@ impl Ticket {
     // You'll have to use what you learned in the previous exercises,
     // as well as some `String` methods. Use the documentation of Rust's standard library
     // to find the most appropriate options -> https://doc.rust-lang.org/std/string/struct.String.html
-    fn new(title: String, description: String, status: String) -> Self {
+    fn new(title: String, description: String, status: String) -> Ticket {
+        let x = '&str To-Do'
         todo!();
         Self {
             title,
