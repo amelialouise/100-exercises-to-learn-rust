@@ -7,10 +7,10 @@ This repo is my fork of the original [`100 Exercises to Learn Rust`](https://git
 -   **Read the [Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html) chapter from the Rust docs**\
     It's where you'll learn what the `Drop`, `Clone`, and `Copy` traits are in Rust, and get this list of some of the types that implement `Copy`:
 
-    -   All the integer types, such as u32.\
-    -   The Boolean type, bool, with values true and false.\
-    -   All the floating-point types, such as f64.\
-    -   The character type, char.\
+    -   All the integer types, such as u32.
+    -   The Boolean type, bool, with values true and false.
+    -   All the floating-point types, such as f64.
+    -   The character type, char.
     -   Tuples, if they only contain types that also implement Copy. For example, (i32, i32) implements Copy, but (i32, String) does not.
 
 P.S. You'll also meet Ferris there:\
