@@ -29,7 +29,7 @@ P.S. You'll also meet Ferris there:\
 
 > \[!NOTE\] This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).\
 > It's one of the trainings in [their portfolio of Rust workshops](https://mainmatter.com/services/workshops/rust/).\
-> Check out their [landing page](https://mainmatter.com/rust-consulting/) if you're looking for Rust consulting or training!
+> I've lightly edited it to sprinkle in learnings, thoughts, etc. 
 
 ## Getting started
 
@@ -39,7 +39,11 @@ Go to [rust-exercises.com](https://rust-exercises.com) and follow the instructio
 
 -   **Rust** (follow instructions [here](https://www.rust-lang.org/tools/install)).\
     If `rustup` is already installed on your system, run `rustup update` (or another appropriate command depending on how you installed Rust on your system) to make sure you're running on the latest stable version.
--   *(Optional but recommended)* An IDE with Rust autocompletion support. We recommend one of the following:
+-   *(Optional but recommended)* An IDE with Rust autocompletion support. I recommend one of the following:
+    - [Positron](https://positron.posit.co/welcome.html)
+    - [Zed](https://zed.dev/) -- *Josiah uses this one! It's untested by me.*
+
+-   Mainmatter recommended: 
     -   [RustRover](https://www.jetbrains.com/rust/);
     -   [Visual Studio Code](https://code.visualstudio.com) with the [`rust-analyzer`](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer) extension.
 
